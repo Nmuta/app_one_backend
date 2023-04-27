@@ -1,8 +1,16 @@
 
 
 
-Welcome home
 
- <% if current_user %>
-  <%= button_to "logout", destroy_user_session_path, method: :delete  %>
-<% end %>
+
+  <div class="login_box">
+    Welcome home..
+    <% if current_user %>
+      <%= button_to "logout", destroy_user_session_path, method: :delete  %>
+    <% end %>
+
+    <% if !current_user %>
+      <%= button_to "login or sign up", new_user_session_path, method: :get  %>
+    <% end %>
+  </div>
+ 
