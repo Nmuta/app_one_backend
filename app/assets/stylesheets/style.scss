@@ -7,6 +7,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('/assets/faucet.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
@@ -19,6 +23,7 @@ body{
   flex-direction: column;
 
   .login_box{
+    width: 40vw;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -33,4 +38,32 @@ body{
 
 .field, label, input, a{
   margin: 5px 0px;
+}
+
+.formatted_table{
+  td{
+    border: 1px solid black;
+    background-color: white;
+    width: 33%;
+  }
+}
+
+.logout_buton_container{
+  margin-top: 10px;
+
+}
+
+.user_administration {
+  width: 90%;
+  height: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 1px 1px 1px #888;
+  background-color: grey;
+  border-radius: 5px;
+  opacity: 0.9;
+
 }

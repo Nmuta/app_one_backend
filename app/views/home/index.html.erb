@@ -3,14 +3,49 @@
 
 
 
-  <div class="login_box">
-    Welcome home..
+
+
     <% if current_user %>
+
+      <br>
+      <% if current_user && current_user.role == Role.first %>
+       <div class="user_administration">
+         <p>
+           Administer users:
+         </p>
+         <table class="formatted_table">
+           <thead>
+           <th>Email</th>
+           <th>Role</th>
+           </tr>
+           </thead>
+           <tbody>
+           <% User.all.each do |user| %>
+             <tr>
+               <td><%= user.email %></td>
+               <td><%= user.role.name %></td>
+             </tr>
+           <% end %>
+           </tbody>
+         </table>
+
+       </div>
+
+
+      <% else  %>
+        Welcome, <%= current_user.email %>
+
+      <% end %>
+
+      <div class="logout_buton_container">
+
       <%= button_to "logout", destroy_user_session_path, method: :delete  %>
+        <br>
+      </div>
     <% end %>
 
     <% if !current_user %>
       <%= button_to "login or sign up", new_user_session_path, method: :get  %>
     <% end %>
-  </div>
+
  
