@@ -1,0 +1,15 @@
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+/Users/nmutajones/.rbenv/versions/3.0.1/bin/ruby -I /Users/nmutajones/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230426-10123-fqh6u9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230426-10123-q223yg/bootsnap

@@ -1,0 +1,16 @@
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+/Users/nmutajones/.rbenv/versions/3.0.1/bin/ruby -I /Users/nmutajones/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230426-10123-7m41m4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230426-10123-11v39t/debug

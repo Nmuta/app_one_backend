@@ -1,0 +1,15 @@
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/nmutajones/.rbenv/versions/3.0.1/bin/ruby -I /Users/nmutajones/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230426-10123-lv9iih.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20230426-10123-vh0wvr

@@ -1,0 +1,15 @@
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/nmutajones/.rbenv/versions/3.0.1/bin/ruby -I /Users/nmutajones/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230426-10123-ov4z2v.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/nmutajones/Documents/scratch/rails/rails7-devise-template/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20230426-10123-mhiwjl/skiptrace/internal
