@@ -87,6 +87,9 @@ GEM
     capistrano-rails (1.6.2)
       capistrano (~> 3.1)
       capistrano-bundler (>= 1.1, < 3)
+    capistrano-rbenv (2.2.0)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
     capistrano-sidekiq (2.3.0)
       capistrano (>= 3.9.0)
       capistrano-bundler
@@ -105,7 +108,7 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     childprocess (4.1.0)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.2.2)
     connection_pool (2.4.0)
     crass (1.0.6)
     debug (1.4.0)
@@ -121,7 +124,7 @@ GEM
     erubi (1.10.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
-    i18n (1.8.11)
+    i18n (1.13.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.0.1)
       actionpack (>= 6.0.0)
@@ -268,6 +271,7 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-nvm
   capistrano-rails
+  capistrano-rbenv
   capistrano-sidekiq
   capistrano3-puma
   capybara

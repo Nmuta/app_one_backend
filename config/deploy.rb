@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.5.0'
+lock '3.17.2'
 
 set :application, 'app_one_nmuta'
 set :repo_url, ' git@github.com:Nmuta/app_one_nmuta.git' # Edit this to match your repository
