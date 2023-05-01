@@ -14,8 +14,8 @@ class ApiController < ApplicationController
     urfunguzo = params['urfunguzo'];
 
     usr = User.find_by(email: params[:jina])
-    if usr && usr.authenticate() && usr.role
-      user_role = usr.role
+    if usr && usr.valid_password?(params['urfunguzo']) && usr.role
+      user_role = usr.role.name
       render json: { user: usr.email, role:user_role}.to_json
     else
       render json: { user: "error", role: "error"}.to_json
