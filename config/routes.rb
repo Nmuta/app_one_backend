@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   root "home#index"
 
   get "/api/data", to: "api#data"
+  get "/api/login", to: "api#login"
 end

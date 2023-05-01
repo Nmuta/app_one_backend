@@ -8,6 +8,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+  def is_admin?
+    role && role.id==1
+  end
 
   private
 
