@@ -14,11 +14,11 @@ class ApiController < ApplicationController
     urfunguzo = params['urfunguzo'];
 
     usr = User.find_by(email: params[:jina])
-    if usr && usr.authenticatable_salt()
-      is_admin = usr.is_admin?
-      render json: { user: usr.email, admin:is_admin}.to_json
+    if usr && usr.authenticate() && usr.role
+      user_role = usr.role
+      render json: { user: usr.email, role:user_role}.to_json
     else
-      render json: { user: "errorz", admin: "errorz"}.to_json
+      render json: { user: "error", role: "error"}.to_json
     end
   end
 end
