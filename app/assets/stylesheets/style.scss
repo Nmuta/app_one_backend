@@ -23,6 +23,10 @@ body{
   align-items: center;
   flex-direction: column;
 
+  .alert{
+    color: white;
+  }
+
   .login_box{
     width: 40vw;
     padding: 20px;
@@ -67,4 +71,8 @@ body{
   border-radius: 5px;
   opacity: 0.9;
 
+}
+
+.alert{
+  color: white;
 }
