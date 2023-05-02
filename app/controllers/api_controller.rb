@@ -24,7 +24,9 @@ class ApiController < ApplicationController
 
   def all_users
     users = User.all
-    mapped_users = users.map{|user| {email: user.email, id: user.id, role: user.role.name}}
+    mapped_users = users.map{|user| {email: user.email, id: user.id,
+                                     role: user.role.name, created_at: user.created_at,
+                                     updated_at: user.updated_at}}
     render json: { users: mapped_users }.to_json
   end
 end
