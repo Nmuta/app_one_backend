@@ -11,4 +11,5 @@ Rails.application.routes.draw do
 
   get "/api/data", to: "api#data"
   get "/api/login", to: "api#login"
+  get "/api/all_users", to: "api#all_users"
 end

@@ -21,4 +21,10 @@ class ApiController < ApplicationController
       render json: { user: "error", role: "error"}.to_json
     end
   end
+
+  def all_users
+    users = User.all
+    mapped_users = users.map{|user| {email: user.email, id: user.id, role: user.role.name}}
+    render json: { users: mapped_users }.to_json
+  end
 end
